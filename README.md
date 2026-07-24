@@ -1,12 +1,12 @@
-# Titanic Survival Prediction System
+# 🚢 Titanic Survival Prediction System
 
-## Project Description
+## 📌 Project Description
 This project predicts whether a passenger survived the Titanic disaster based on demographic and ticket details using Machine Learning. The trained model is deployed interactively using Streamlit.
 
-## Live Demo
+## 🔗 Live Demo
 https://titanic-survival-ml-app.streamlit.app/
 
-## Technologies Used
+## 🛠️ Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -15,14 +15,14 @@ https://titanic-survival-ml-app.streamlit.app/
 - Streamlit
 - Joblib
 
-## Machine Learning Algorithm
+## 🤖 Machine Learning Algorithm
 - Logistic Regression
 
-## Dataset
+## 📊 Dataset
 - Titanic: Machine Learning from Disaster
 - Dataset Link: [https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data)
 
-## Features Used
+## 🎯 Features Used
 - Pclass (Ticket Class)
 - Sex (Gender)
 - Age
@@ -31,7 +31,7 @@ https://titanic-survival-ml-app.streamlit.app/
 - Fare
 - Embarked (Port of Embarkation)
 
-## Project Workflow
+## ⚙️ Project Workflow
 1. Data Loading & Cleaning
 2. Exploratory Data Analysis (EDA)
 3. Missing Value Imputation
@@ -41,10 +41,10 @@ https://titanic-survival-ml-app.streamlit.app/
 7. Streamlit Frontend Development
 8. GitHub Deployment
 
-## Accuracy
+## 📈 Accuracy
 - Model Accuracy: 82%+ (may vary slightly)
 
-## Project Structure
+## 📁 Project Structure
 ```text
 Titanic-Survival-Prediction-Streamlit/
 │── app.py
@@ -56,7 +56,7 @@ Titanic-Survival-Prediction-Streamlit/
 └── README.md
 ```
 
-## Run Locally
+## 🚀 Run Locally
 Install dependencies:
 ```bash
 pip install -r requirements.txt
@@ -67,5 +67,5 @@ Run Streamlit App:
 streamlit run app.py
 ```
 
-## Author
+## 👩‍💻 Author
 Tanvi Sonawane
