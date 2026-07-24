@@ -3,6 +3,9 @@
 ## Project Description
 This project predicts whether a passenger survived the Titanic disaster based on demographic and ticket details using Machine Learning. The trained model is deployed interactively using Streamlit.
 
+## Live Demo
+https://titanic-survival-ml-app.streamlit.app/
+
 ## Technologies Used
 - Python
 - Pandas
