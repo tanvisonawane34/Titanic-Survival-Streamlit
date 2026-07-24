@@ -1,25 +1,25 @@
-# 🚢 Titanic Survival Prediction System
+# Titanic Survival Prediction System
 
-## 📌 Project Description
+## Project Description
 This project predicts whether a passenger survived the Titanic disaster based on demographic and ticket details using Machine Learning. The trained model is deployed interactively using Streamlit.
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - Pandas
 - NumPy
 - Matplotlib / Seaborn
 - Scikit-Learn
 - Streamlit
-- Joblib / Pickle
+- Joblib
 
-## 🤖 Machine Learning Algorithm
-- Random Forest Classifier (or Logistic Regression)
+## Machine Learning Algorithm
+- Logistic Regression
 
-## 📊 Dataset
+## Dataset
 - Titanic: Machine Learning from Disaster
-- Dataset Link: https://www.kaggle.com/c/titanic/data
+- Dataset Link: [https://www.kaggle.com/c/titanic/data](https://www.kaggle.com/c/titanic/data)
 
-## 🔑 Features Used
+## Features Used
 - Pclass (Ticket Class)
 - Sex (Gender)
 - Age
@@ -28,38 +28,41 @@ This project predicts whether a passenger survived the Titanic disaster based on
 - Fare
 - Embarked (Port of Embarkation)
 
-## ⚙️ Project Workflow
+## Project Workflow
 1. Data Loading & Cleaning
 2. Exploratory Data Analysis (EDA)
 3. Missing Value Imputation
 4. Feature Encoding & Scaling
 5. Train-Test Split & Model Training
-6. Model Evaluation & Saving (`.pkl`)
+6. Model Evaluation & Saving (.pkl)
 7. Streamlit Frontend Development
 8. GitHub Deployment
 
-## 🎯 Accuracy
+## Accuracy
 - Model Accuracy: 82%+ (may vary slightly)
 
-## 📂 Project Structure
+## Project Structure
+```text
 Titanic-Survival-Prediction-Streamlit/
 │── app.py
+│── titanic.csv
 │── titanic_model.pkl
 │── scaler.pkl
 │── columns.pkl
 │── requirements.txt
 └── README.md
+```
 
-## 🚀 Run Locally
-1. Clone repository:
-   git clone https://github.com/tanvisonawane34/Titanic-Survival-Prediction-Streamlit.git
-   cd Titanic-Survival-Prediction-Streamlit
+## Run Locally
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
-2. Install requirements:
-   pip install -r requirements.txt
+Run Streamlit App:
+```bash
+streamlit run app.py
+```
 
-3. Run Streamlit App:
-   streamlit run app.py
-
-## 👩‍💻 Author
+## Author
 Tanvi Sonawane
